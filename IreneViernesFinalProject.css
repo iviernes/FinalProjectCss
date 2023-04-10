@@ -1,0 +1,122 @@
+Body{
+    margin: 0;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-style: normal;
+    font-weight: 200;
+    background-color: white;
+    font-variant: small-caps;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+
+Header{
+    background-color: #6491AF;
+    padding-bottom: 0px;
+    background-image: url(url);
+}
+
+Header::after{
+	content: '';
+	display:table;
+	clear: both;
+}
+
+.logo{
+    float: left;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 70px;
+    padding-bottom: 0px; /*change this to center with nav*/
+}
+
+nav{
+    float: right;
+    position: relative;
+    top: -31px;
+    right: 70px;
+}
+	
+
+nav ul{
+    margin: 0;
+    padding-top: 33px;
+    padding-right: 33px;
+    padding-left: 33px;
+    padding-bottom: 0px;
+    list-style: none;
+}
+
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+		/*change this to center with logo*/
+	
+	}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 2px;
+}
+
+nav hover{
+	color:white
+}
+
+.intro_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+/* Hero Section */
+.header{
+    padding-top: 400px;
+    padding-bottom: 400px;
+    margin-top: -2px;
+    background-image: url(20221120-495A6130.jpg);
+    background-size: cover;
+    background-position: 0 34%;
+    font-size: 80px;
+    background-attachment: fixed;
+    text-align: right;
+    color: #3C4749;
+    text-shadow: 3px 3px #638DA7;
+}
+
+.light {
+    font-weight: bold;
+    color:white;
+    font-size: 33px;
+    text-align: right;
+    vertical-align: 125px;
+    margin-right: 85px;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+
